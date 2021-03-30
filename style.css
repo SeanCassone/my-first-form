@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+}
+
+div {
+  max-width: 350px;
+  margin: auto;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #457b9d;
+}
+
+.group {
+  background-color: #000;
+}
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: Arial;
+}
+
+form input[type="text"] {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"]#zip {
+  width: 51px;
+}
+
+form input[type="radio"] + label {
+  display: inline;
+}
+form input[type="checkbox"] + label {
+  display: inline;
+}
+
+form textarea {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 98%;
+  height: 4.75rem;
+}
+
+form button {
+  padding: 10px 16px;
+  background-color: #000;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  font-family: tahoma;
+}
+
+legend {
+  background-color: #000;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+fieldset {
+  padding: 10px 12px;
+  border-radius: 6px;
+  width: 10%;
+  border-style: groove;
+}
